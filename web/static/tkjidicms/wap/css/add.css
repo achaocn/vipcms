@@ -1,0 +1,137 @@
+body{margin:0;padding:0 0 12px 0;background:#fff;font-size:13px;line-height:22px;}
+div,p,li{font-family:Verdana,婼;font-size:13px;}
+form,ul,li,p,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+input,select{font-size:12px;line-height:16px;}
+img{border:0;}
+ul,li{list-style-type:none;}
+li{font-size:13px;}
+.tc{text-align:center;}.tl{text-align:left;}.tr{text-align:right;}
+.dis{display:block;}.undis{display:none;}
+.fl{float:left;}.fr{float:right;}.cl{clear:both;}
+.fh{height:22px;}.fb{font-weight:bold;}.fnb{font-weight:200;margin-left:-1px;}
+.fc30{color:#303030;font-family:"宋体";}.fchot{color:#ff0700}
+.f11{font-size:12px;font-family:tahoma;}
+h4{font-weight:200;font-size:13px;cursor:pointer;}
+h4 a{width:100%;heihgt:100%;display:block;}
+a{color:#00007F;text-decoration:none;}
+a.lcblue{color:#0F479C;}
+a.lchot{color:#bd0a01;}
+.lchot{color:#bd0a01;}
+a:link{text-decoration: none;}
+a:visited{text-decoration: none;}
+body,html{width: 100%;min-height: 100%;background:#e8e8e8;font-size: 10px;text-align: center;}
+.big{width: 100%;min-height: 100%;background:#e8e8e8;color: #666;position: relative;}
+/*头部*/
+.big header{width: 100%;height: 4rem;border-bottom: 0.1rem solid #e5e5e5;position: relative;background: #fff;}
+.big header .back{height: 45%;position: absolute;left: 5%;top: 1.2rem;height: 35%;}
+.big header .hd-name{width: 100%;height: 100%;line-height: 4rem;text-align: center;font-size: 1.6rem;}
+/*地址提示*/
+.prompt{width: 100%;height: 5rem;background:#fff;overflow: hidden;}
+.prompt .proImg{float: left;height: 5rem;text-align: center;line-height: 5rem;margin-left: 5%;}
+.prompt .proImg img{height: 40%;}
+.prompt p{height: 5rem;float: left;line-height: 5rem;font-size: 1.6rem;margin-left: 1%;color: #666;}
+.prompt p span{color: #ff3c3c;}
+/*收货地址设置*/
+.add{width: 100%;font-size: 1.6rem;}
+/*无收货地址状态*/
+.add .none{width: 100%;height: 5rem;font-size: 1.6rem;margin-top: 10rem;text-align: center;line-height: 5rem;float: left;}
+/*收货地址*/
+.add .reladd{width: 100%;min-height: 12.5rem;margin-top: 0.5rem;background: #fff;display: none;}
+.add .reladd .top{width: 95%;min-height: 8rem;padding: 0 2.5% 0 2.5%;border-bottom: 0.1rem solid #e5e5e5;}
+.add .reladd .top .frist{width: 100%;height: 4rem;}
+.add .reladd .top .frist .addName{color: #FF3C3C;float: left;margin-left: 2.5%;height: 4rem;line-height: 4rem;font-size: 1.6rem;}
+.add .reladd .top .frist .addNum{float: right;margin-right: 2.5%;height: 4rem;line-height: 4rem;font-size: 1.6rem;color: #444; }
+.add .reladd .top .addtext{width: 90%;min-height: 4rem;line-height: 3rem;margin-left: 2.5%;font-size: 1.6rem;color: #666;
+							text-align: left;}
+.add .reladd .bottom{height: 4.5rem;width: 100%;line-height: 4.5rem;overflow: hidden;}
+.add .reladd .bottom .moRen{width: 2rem;height: 2rem;float: left;border-radius: 1rem;
+							background: url(../img/add/moren.png);background-size: cover;margin-left: 5%;margin-top: 1.2rem;}
+.add .reladd .bottom .moRenText{margin-left: 2%;float: left;color: #666;font-size: 1.2rem;}
+.add .reladd .bottom .editor{float: right;margin-right: 5%;width: 20%;}
+.add .reladd .bottom .editor .edImg{text-align: center;height: 4.5rem;float: left;line-height: 4,5rem;font-size: 1.2rem;}
+.add .reladd .bottom .editor .edImg img{height: 40%;}
+.add .reladd .bottom .editor p{float: left;margin-left: 8%;color: #666;}
+/*新增收货地址*/
+.add .new{width: 100%;min-height: 28rem;margin-top: 0.5rem;background: #fff;display: none;}
+.add .new .newName{width: 95%;padding: 0 2.5% 0 2.5%;height: 4.5rem;line-height: 4.5rem;}
+.add .new .newName p{color: #FF3C3C;height: 4.5rem;line-height: 4.5rem;float: left;margin-left: 2.5%;font-size: 1.6rem;}
+.add .new .newName span{float: right;display: block;height: 4.5rem;margin-right: 2.5%;line-height: 4.5rem;}
+.add .new .newName span img{height: 30%;}
+.add .new .box{width: 95%;padding: 0 2.5% 0 2.5% ;}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #444;
+    font-size: 1.6rem;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #444;
+    font-size: 1.6rem;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #444;
+    font-size: 1.6rem;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #444;
+    font-size: 1.6rem;
+}
+#people{width: 97.5%;padding-left: 2.5%;height: 4.5rem;border: none;outline: none;border-bottom: 0.1rem solid #e5e5e5;font-size: 1.6rem;}
+#phoneNum{width: 97.5%;padding-left: 2.5%;height: 4.5rem;border: none;outline: none;border-bottom: 0.1rem solid #e5e5e5;font-size: 1.6rem;}
+/*所选地区*/
+.add .new #myAddrs{width: 90%;height: 4.5rem;background: url(../img/person/cnlistbg.png) no-repeat 95% 50%;background-size: 3%;border: none;outline: none;border-bottom: 0.1rem solid #e5e5e5;padding-left: 2.5%;font-size: 1.6rem;margin-left: 1.5%;}
+/*详细地址*/
+.add .new .xiangxi{width: 90%;padding:0 5% 0 5%;min-height: 4.5rem;border: none;outline: none;font-size: 1.6rem;}
+.xiangxi::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
+	color: #999;
+}
+/*保存按钮*/
+.save{width: 100%;min-height:8rem ;background: #fff;margin-top: 0.5rem;text-align: center;padding-top: 1.5rem;display: none;}
+.save a{display: block;width: 30%;height: 3rem;border: 0.1rem solid #FF3C3C;text-align: center;line-height: 3rem;
+		margin: 0 auto;color: #FF3C3C;border-radius: 0.2rem;font-size: 1.6rem;}
+/*新增按钮*/
+.newBtn{width: 100%;background: #ff3c3c;position: fixed;bottom: 0;height: 5rem;color: #fff;font-size: 2rem;text-align: center;line-height: 5rem;}
+/*适配*/
+@media (min-device-width : 320px) and (max-device-width : 359px) and (-webkit-min-device-pixel-ratio : 2){
+		html{font-size: 10px;}
+		
+		
+}
+@media (min-device-width : 360px) and (max-device-width : 374px) and (-webkit-min-device-pixel-ratio : 2){
+		html{font-size: 10px;}
+		
+		
+		
+}
+
+@media (min-device-width : 375px) and (max-device-width : 383px) and (-webkit-min-device-pixel-ratio : 2){
+		html{font-size: 10px;}
+		
+				
+		
+		
+}
+@media (min-device-width : 384px) and (max-device-width : 413px) and (-webkit-min-device-pixel-ratio : 2){
+		html{font-size: 10px;}
+		
+			
+		
+		
+}
+
+
+@media (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-min-device-pixel-ratio : 3){ 
+		html{font-size: 10px;}
+		
+		
+			
+}
+@media only screen and (min-width: 1029px) {
+		html{font-size: 28.5px;width: 750px;margin: 0 auto;}
+		body{width: 750px;margin: 0 auto;}
+		.content{padding-bottom: 10rem;}
+		.save{margin-bottom: 4rem;margin-top: -10rem;}
+		.newBtn{width: 750px;}
+		.add .none{padding-bottom: 15rem;margin-top: 5rem;}
+		.save{margin-top: 4rem;}
+		.big header{width: 750px;}
+		
+}

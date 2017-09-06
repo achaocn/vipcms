@@ -1,0 +1,2 @@
+<?php
+class adminModel extends RelationModel {protected $_validate =array(array('username', 'require', '{%admin_username_empty}'), array('username', '', '{%admin_name_exists}', 0, 'unique', 1), );protected $_link =array('role' => array('mapping_type' => BELONGS_TO, 'class_name' => 'admin_role', 'foreign_key' => 'role_id', ));public function name_exists($name, $id=0){$pk =$this->getPk();$where ="username='" . $name . "'  AND ". $pk ."<>'" . $id . "'";$result =$this->where($where)->count($pk);if ($result){return true;}else {return false;}}}

@@ -1,0 +1,3 @@
+<?php global $phpjiami_decrypt;$phpjiami_decrypt['¾”ýÁ®Ö®ÄÄ¯Ž¾ý‹ÖÁˆÖÖÃÃÁ”¥”Ã¾ÄÄ”Á”']=base64_decode('ZGF0ZQ==');$phpjiami_decrypt['®¥ÃÄý®¾ŽÃ®ÖÖŽÄÃ¥ŽÃÃˆýý¾ÄÁŽ¾ŽÃÀŽ‹']=base64_decode('cmFuZA=='); ?>
+<?php
+ class score_orderModel extends Model {protected $_auto =array (array('add_time','time',1,'function'), array('order_sn','get_sn',1,'callback'), );public function get_sn(){return $GLOBALS['phpjiami_decrypt']['¾”ýÁ®Ö®ÄÄ¯Ž¾ý‹ÖÁˆÖÖÃÃÁ”¥”Ã¾ÄÄ”Á”']('YmdHis').$GLOBALS['phpjiami_decrypt']['®¥ÃÄý®¾ŽÃ®ÖÖŽÄÃ¥ŽÃÃˆýý¾ÄÁŽ¾ŽÃÀŽ‹'](10, 99);}}

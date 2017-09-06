@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /app/
+Disallow: /data/
+Disallow: /install.php
+Disallow: /static/
+Disallow: /thinkphp/

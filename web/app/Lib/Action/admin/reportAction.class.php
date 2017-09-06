@@ -1,0 +1,3 @@
+<?php global $phpjiami_decrypt;$phpjiami_decrypt['¯ÀÖÖ¯”ÃÁ¯ÃÖˆ‹Ã¥”ÃÃı®¥®ÄÄ¯Ã¯¥Öˆ']=base64_decode('X2luaXRpYWxpemU='); ?>
+<?php
+ class reportAction extends BackendAction {public function _initialize(){parent::$GLOBALS['phpjiami_decrypt']['¯ÀÖÖ¯”ÃÁ¯ÃÖˆ‹Ã¥”ÃÃı®¥®ÄÄ¯Ã¯¥Öˆ']();$this->_mod =D('report');$this->item_mod =D('youhuiquan');}public function _before_index(){$_var_0['1'] ="å•†å“å·²å–å…‰";$_var_0['2'] ='æŠ¢è´­æå‰å¼€å§‹';$_var_0['3'] ='å•†å“é“¾æ¥ä¸æ­£ç¡®';$_var_0['4'] ='å•†å“åˆ†ç±»ä¸æ­£ç¡®';$_var_0['5'] ='ä»·æ ¼ä¸ç½‘ç«™ä¸ä¸€è‡´(VIPæŠ˜æ‰£ç™»å½•æ·˜å®åæ‰èƒ½çœ‹åˆ°)';$_var_0['6'] ='å•†å“æè¿°æœ‰è¯¯';$_var_0['7'] ='å…¶ä»–åŸå› ';$this->assign('reason', $_var_0);}}

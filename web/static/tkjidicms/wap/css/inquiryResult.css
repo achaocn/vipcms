@@ -1,0 +1,140 @@
+body{margin:0;padding:0 0 12px 0;background:#fff;font-size:13px;line-height:22px;}
+div,p,li{font-family:Verdana,婼;font-size:13px;}
+form,ul,li,p,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+input{border:0;border-radius:0;}
+*{margin:0;padding:0;}
+img{border:0;}
+ul,li{list-style-type:none;}
+li{font-size:13px;}
+.tc{text-align:center;}.tl{text-align:left;}.tr{text-align:right;}
+.dis{display:block;}.undis{display:none;}
+.fl{float:left;}.fr{float:right;}.cl{clear:both;}
+.fh{height:22px;}.fb{font-weight:bold;}.fnb{font-weight:200;margin-left:-1px;}
+.fc30{color:#303030;font-family:"宋体";}.fchot{color:#ff0700}
+.f11{font-size:12px;font-family:tahoma;}
+h4{font-weight:200;font-size:13px;cursor:pointer;}
+h4 a{width:100%;heihgt:100%;display:block;}
+a{color:#00007F;text-decoration:none;}
+a:hover{color:#bd0a01;text-decoration:underline;}
+a.lcblue{color:#0F479C;}
+a.lchot{color:#bd0a01;}
+.lchot{color:#bd0a01;}
+a:link{text-decoration: none;}
+a:visited{text-decoration: none;}
+body,html{width: 100%;min-height: 100%;background:#fff;font-size: 10px;text-align: center;}
+.big{width: 100%;min-height: 100%;background:#fff;color: #666;position: relative;}
+/*头部*/
+.big header{width: 100%;height: 4rem;border-bottom: 0.1rem solid #e5e5e5;position: relative;background: #fff;}
+.big header .back{height: 45%;position: absolute;left: 5%;top: 1.5rem;height: 35%;}
+.big header .hd-name{width: 100%;height: 100%;line-height: 4rem;text-align: center;font-size: 1.6rem;}
+/*搜索框*/
+.search{width: 90%;height: 8rem;background: #f2f2f2;padding: 0.5rem 5% 0.5rem 5%;}
+.search .spLeft{width: 10%;height: 3rem;display: block;float: left;margin-top: 0.5rem;border-radius: 1.5rem 0 0 1.5rem;
+				background: url(../img/classify/search.png) no-repeat 50% 50% #fff;background-size: 70%;}
+.search .spRight{width: 8%;height: 3rem;display: block;float: left;margin-top: 0.5rem;border-radius: 0 1.5rem 1.5rem 0;
+				background-size: 70%;background: url(../img/del.png) no-repeat 50% 50% #fff;background-size: 60%;}
+::-webkit-input-placeholder { /* WebKit browsers */
+    font-size: 1.6rem;
+    color: #666;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    font-size: 1.6rem;
+    color: #666;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    font-size: 1.6rem;
+    color: #666;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    font-size: 1.6rem;
+    color: #666;
+}
+.searchinput{width:82% ;float: left;border: none;height: 3rem;outline: none;margin-top: 0.5rem;background: #fff;font-size: 1.4rem;color: #666;line-height:3rem;}
+
+.search .cha{width: 35%;height: 3rem;color: #fff;background: #ff954e;display: block;line-height: 3rem;text-align: center;
+			border-radius: 0.5rem;margin: 4.5rem auto;margin-bottom: 0;font-size: 1.2rem;}
+.search .cha1{width: 35%;height: 3rem;color: #fff;background: #FF4E65;display: block;line-height: 3rem;text-align: center;
+			border-radius: 0.5rem;margin: 4.5rem auto;margin-bottom: 0;font-size: 1.2rem;}
+/*内容*/
+.content{width: 95%;min-height: 20rem;padding: 1.5rem 2.5% 5rem 2.5%;}
+.content .text{width: 100%;height: 3rem;color: #FF3C3C;line-height: 3rem;font-size: 1.8rem;text-align: center;}
+/*列表内容*/
+.content .list{width: 95%;padding: 0 2.5% 0 2.5%;min-height: 15rem;}
+.content .list li{width: 100%;min-height: 12rem;border-bottom: 0.1rem solid #e5e5e5;margin-top: 1rem;}
+/*图片*/
+.content .list li .liImg{width: 43%;height: 10rem;float: left;}
+.content .list li .liImg img{height: 100%;display: block;}
+/*右半部分*/
+.content .list li .liRight{width: 55%;float: left;min-height: 10rem;padding-left: 2%;position: relative;}
+.content .list li .liRight p{width: 95%;height: 2.5rem;line-height: 2.5rem;color:#ff3c3c;text-align: left;font-size: 1.2rem;}
+.content .list li .liRight .liName{line-height: 1.4rem;height: 2.7rem;overflow: hidden;text-overflow: ellipsis; color:#666}
+.content .list li .liRight .liPrice .sp2{text-decoration: line-through;font-size: 1.4rem;margin-left: 0.5rem;}
+.content .list li .liRight .liAfter{line-height: 1rem;}
+.content .list li .liRight .liAfter .sp1{font-size: 1.6rem;}
+.content .list li .liRight .liAfter .sp2{margin-left: 0.5rem;font-size: 1.2rem;}
+/*券定位*/
+.content .list li .quanIMG{position: absolute;right: 5%;top: 42%;display: block;height: 20%;}
+.content .list li .quanText{position: absolute;right: 15%;top: 43%;color: #FF3C3C;width: 2.5rem;text-align: center;
+							font-size: 1rem;}
+/*立即用券*/
+.content .list li .liRight .now{width: 95%;height: 2rem;line-height: 2rem;color: #FF3C3C;border: 0.1rem solid #FF3C3C;border-radius: 0.2rem;font-size: 1.4rem;}
+/*尾部*/
+footer{width: 100%;width: 100%;height: 5rem;background: #f3f3f3;position: fixed;bottom: 0;z-index: 10;}
+footer .ft-list{width: 100%;height: 5rem;overflow: hidden;}
+footer .ft-list li{width: 20%;line-height: 5rem;float: left;}
+footer .ft-list li div{width: 100%;text-align: center;height: 3rem;}
+footer .ft-list li div span{display: inline-block;height: 3rem;vertical-align: middle;}
+footer .ft-list li div img{height: 70%;}
+.big footer .ft-list li p{width: 100%;float: left;height: 1.2rem;line-height: 1.2rem;text-align: center;margin-top:0.5rem;color: #666;
+						font-size: 1rem;}
+/*适配*/
+@media (min-device-width : 320px) and (max-device-width : 359px) and (-webkit-min-device-pixel-ratio : 2){
+		html{font-size: 10px;}
+		
+		
+}
+@media (min-device-width : 360px) and (max-device-width : 374px) and (-webkit-min-device-pixel-ratio : 2){
+		html{font-size: 10px;}
+		.content .list li .quanText{right: 13% ;}
+		
+		
+		
+}
+
+@media (min-device-width : 375px) and (max-device-width : 383px) and (-webkit-min-device-pixel-ratio : 2){
+		html{font-size: 10px;}
+		.content .list li .quanText{right: 13% ;}
+		
+				
+		
+		
+}
+@media (min-device-width : 384px) and (max-device-width : 413px) and (-webkit-min-device-pixel-ratio : 2){
+		html{font-size: 10px;}
+		.content .list li .quanText{right: 13% ;}
+		
+			
+		
+		
+}
+
+
+@media (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-min-device-pixel-ratio : 3){ 
+		html{font-size: 10px;}
+		.content .list li .quanText{right: 13% ;top: 44%;}
+		
+			
+}
+@media only screen and (min-width: 1029px) {
+		html{font-size: 28.5px;width: 750px;margin: 0 auto;}
+		body{width: 750px;margin: 0 auto;}
+		footer{width: 750px;}
+		.content .list li .liRight .liAfter .sp1{font-size: 1.4rem;}
+		.content .list li .liRight .liAfter .sp2{font-size: 1rem;}
+		.content .list li .liRight .liName{height: 2.8rem;width: 100%;}
+		.content .list li .quanText{right: 13% ;top: 48%;}
+		.big header{width: 750px;}
+		
+		
+		
+}

@@ -1,0 +1,120 @@
+body{margin:0;padding:0 0 12px 0;background:#fff;font-size:13px;line-height:22px;}
+div,p,li{font-family:Verdana,婼;font-size:13px;}
+form,ul,li,p,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+input,select{font-size:12px;line-height:16px;}
+img{border:0;}
+ul,li{list-style-type:none;}
+li{font-size:13px;}
+.tc{text-align:center;}.tl{text-align:left;}.tr{text-align:right;}
+.dis{display:block;}.undis{display:none;}
+.fl{float:left;}.fr{float:right;}.cl{clear:both;}
+.fh{height:22px;}.fb{font-weight:bold;}.fnb{font-weight:200;margin-left:-1px;}
+.fc30{color:#303030;font-family:"宋体";}.fchot{color:#ff0700}
+.f11{font-size:12px;font-family:tahoma;}
+h4{font-weight:200;font-size:13px;cursor:pointer;}
+h4 a{width:100%;heihgt:100%;display:block;}
+a{color:#00007F;text-decoration:none;}
+a:hover{color:#bd0a01;text-decoration:underline;}
+a.lcblue{color:#0F479C;}
+a.lchot{color:#bd0a01;}
+.lchot{color:#bd0a01;}
+a:link{text-decoration: none;}
+a:visited{text-decoration: none;}
+body,html{width: 100%;min-height: 100%;background:#fff;font-size: 10px;text-align: center;}
+.big{width: 100%;min-height: 100%;color: #666;position: relative;}
+/*头部*/
+.big header{width: 100%;height: 4rem;border-bottom: 0.1rem solid #e5e5e5;position: relative;background: #fff;}
+.big header .back{height: 45%;position: absolute;left: 5%;top: 1.5rem;height: 35%;}
+.big header .hd-name{width: 100%;height: 100%;line-height: 4rem;text-align: center;font-size: 1.6rem;}
+/*banner*/
+.banner{width: 100%;height: 8rem;background: url(../img/mall/bannerBg.png) no-repeat red;background-size: cover;position: relative;}
+/*头像*/
+.banner .headerImg{width: 6rem;height: 6rem;position: absolute;border-radius: 3rem;left: 5%;top: 50%;overflow: hidden;margin-top:-3rem;}
+.banner .headerImg img{width: 6rem;height: 6rem;}
+/*去晒单*/
+.banner .go{width: 6rem;height: 2.5rem;font-size: 1.2rem;background: #ffd33c;color: #fff;line-height: 2.5rem;text-align: center;
+				border-radius: 1.5rem;position: absolute;right: 10%;top: 2.8rem;}
+.banner .nogo{width: 6rem;height: 2.5rem;font-size: 1.2rem;background: #ffd33c;color: #fff;line-height: 2.5rem;text-align: center;
+				border-radius: 1.5rem;position: absolute;left: 23%;top: 2.8rem;}
+/*用户名和积分*/
+.banner .baName{min-width: 50%;height: 3rem;position: absolute;left: 26%;top: 2rem;}
+.banner .baName p{width: 100%;text-align: left;font-size: 1.3rem;color: #fff;}
+/*内容*/
+.content{width: 100%;min-height: 10rem;background: #fff;padding-bottom: 8rem;}
+/*晒单排行*/	
+.content .list1{width: 95%;padding: 0 2.5% 0 2.5%;height: 4rem;border-bottom: 0.1rem solid #dcdcdc;}
+.content .list1 li{width: 28%;float: left;text-align: center;height: 4rem;line-height: 4rem;font-size: 1.4rem;color: #444;}
+.content .list1 .active{color: #FF3C3C;border-bottom: 0.3rem solid #FF3C3C;height: 3.8rem;line-height: 4rem;margin-left: 5%;}
+/*排行切换*/
+.content .list2{width: 95%;height: 3.45rem;margin: 1rem 2.5% 0 2.5%;border-radius: 0.2rem;border:0.1rem solid #E5E5E5;}
+.content .list2 li{width: 33%;height: 3.5rem;float: left;line-height: 3.5rem;font-size: 1.4rem;color: #666;text-align: center;
+					border-right: 0.1rem solid #E5E5E5;margin-top: -0.05rem;}
+.content .list2 .last{border: none;}
+.content .list2 .active{border-right: none;background: #ffd33c;color: #fff;}
+/*排行标题*/
+.content .list3{width: 100%;height: 2rem;margin-top: 1.5rem;}
+.content .list3 li{width: 33%;height: 2rem;line-height: 2rem;text-align: center;color: #444;font-size: 1.4rem;float: left;}
+/*排行详情*/
+.content .list4{width: 100%;height: 3rem;margin-top: 1rem;}
+.content .list4 li{float: left;text-align: center;line-height: 3rem;width: 33%;font-size: 1.2rem;color: #666;height: 3rem;}
+.content .list4 .number{color: #FF3C3C;}
+.content .list4 li .listImg{width: 2rem;height: 2rem;border-radius: 1rem;float: left;margin-top: 0.4rem;overflow: hidden;margin-left:1rem;float:left;}
+.content .list4 li .listImg img{width: 2rem;height: 2rem;}
+.content .list4 li p{font-size: 1.2rem ;color: #666;float:left;margin-left:0.5rem;}
+/*加载更多*/
+.content .more{width: 40%;height: 2.6rem;line-height: 2.6rem;border: 0.1rem solid #FF3C3C;color: #FF3C3C;margin: 0 auto;margin-top: 2rem;
+				font-size: 1.4rem;border-radius: 0.2rem;}
+/*尾部*/
+footer{width: 100%;width: 100%;height: 5rem;background: #f3f3f3;position: fixed;bottom: 0;z-index: 10;}
+footer .ft-list{width: 100%;height: 5rem;overflow: hidden;}
+footer .ft-list li{width: 20%;line-height: 5rem;float: left;}
+footer .ft-list li div{width: 100%;text-align: center;height: 3rem;}
+footer .ft-list li div span{display: inline-block;height: 3rem;vertical-align: middle;}
+footer .ft-list li div img{height: 70%;}
+.big footer .ft-list li p{width: 100%;float: left;height: 1.2rem;line-height: 1.2rem;text-align: center;margin-top:0.5rem;color: #666;
+						font-size: 1rem;}
+.big footer .ft-list li .fo-active{color: #FF3C3C;}
+/*适配*/
+@media (min-device-width : 320px) and (max-device-width : 359px) and (-webkit-min-device-pixel-ratio : 2){
+		html{font-size: 10px;}
+}
+@media (min-device-width : 360px) and (max-device-width : 374px) and (-webkit-min-device-pixel-ratio : 2){
+		html{font-size: 10px;}
+		.banner .baName{left: 23%;}
+		
+		
+}
+
+@media (min-device-width : 375px) and (max-device-width : 383px) and (-webkit-min-device-pixel-ratio : 2){
+		html{font-size: 10px;}
+		.banner .baName{left: 23%;}
+			
+		
+		
+}
+@media (min-device-width : 384px) and (max-device-width : 413px) and (-webkit-min-device-pixel-ratio : 2){
+		html{font-size: 10px;}
+		.banner .baName{left: 23%;}
+			
+		
+		
+}
+
+
+@media (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-min-device-pixel-ratio : 3){ 
+		html{font-size: 10px;}
+		.banner .baName{left: 23%;}
+		
+			
+}
+@media only screen and (min-width: 1029px) {
+		html{font-size: 28.5px;padding-bottom: 15rem;}
+		body{width: 750px;margin: 0 auto;}
+		footer{width: 750px;}
+		.banner .baName p{line-height: 1.5rem}
+		.big .backtop{bottom: 7rem;right: 30.5%;width: 3rem;height: 3rem;}
+		.content .list1 .active{width: 30%;}
+		.content .list4 li{font-size: 1rem;}
+		.content .list4 li p{font-size: 1rem;}
+		.big header{width: 750px;}
+}

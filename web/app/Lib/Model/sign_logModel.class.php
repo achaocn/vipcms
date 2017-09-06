@@ -1,0 +1,3 @@
+<?php global $phpjiami_decrypt;$phpjiami_decrypt['ýÁŽˆý”ÖýÃÖÃ‹Á®ˆÖÀ”¥¥‹”ÄÁ”¯¥Á¾¯ÃŽ']=base64_decode('c3RydG90aW1l');$phpjiami_decrypt['¾”ýÁ®Ö®ÄÄ¯Ž¾ý‹ÖÁˆÖÖÃÃÁ”¥”Ã¾ÄÄ”Á”']=base64_decode('ZGF0ZQ=='); ?>
+<?php
+ class sign_logModel extends Model {protected $_auto =array (array('sign_date','today_time',1,'callback'), );public function today_time(){return $GLOBALS['phpjiami_decrypt']['ýÁŽˆý”ÖýÃÖÃ‹Á®ˆÖÀ”¥¥‹”ÄÁ”¯¥Á¾¯ÃŽ']($GLOBALS['phpjiami_decrypt']['¾”ýÁ®Ö®ÄÄ¯Ž¾ý‹ÖÁˆÖÖÃÃÁ”¥”Ã¾ÄÄ”Á”']('Ymd'));}}

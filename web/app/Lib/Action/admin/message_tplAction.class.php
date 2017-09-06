@@ -1,0 +1,3 @@
+<?php global $phpjiami_decrypt;$phpjiami_decrypt['¯ÀÖÖ¯”ÃÁ¯ÃÖˆ‹Ã¥”ÃÃı®¥®ÄÄ¯Ã¯¥Öˆ']=base64_decode('X2luaXRpYWxpemU='); ?>
+<?php
+ class message_tplAction extends BackendAction {public function _initialize(){parent::$GLOBALS['phpjiami_decrypt']['¯ÀÖÖ¯”ÃÁ¯ÃÖˆ‹Ã¥”ÃÃı®¥®ÄÄ¯Ã¯¥Öˆ']();$this->_mod =D('message_tpl');}protected function _search(){$_var_0 =$this->_get('type', 'trim');$_var_1 =array();$_var_1['type'] =$_var_0;if ($_var_2 =$this->_request('keyword', 'trim')){$_var_1['_string'] ='name like \'%' . $_var_2 . '%\' OR alias like \'%' . $_var_2 . '%\'';}$this->assign('search', array('keyword' => $_var_2,));return $_var_1;}}

@@ -1,0 +1,2 @@
+<?php
+class linkModel extends RelationModel {public function name_exists($name, $id=0){$pk =$this->getPk();$where ="name='" . $name . "'  AND ". $pk ."<>'" . $id . "'";$result =$this->where($where)->count($pk);if ($result){return true;}else {return false;}}}

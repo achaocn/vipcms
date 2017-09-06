@@ -1,0 +1,3 @@
+<?php global $phpjiami_decrypt;$phpjiami_decrypt['ÃÃÁ¾®ÃÁ¯¥‹Ã®‹”¯ˆıı”Ã®Á”¯‹Ä¥ÁÃÁ”']=base64_decode('SQ==');$phpjiami_decrypt['Ã¯Ã¯ÄıÁ‹Ãıı®ıˆÃÃ¾ÃÖÀÄ®ÃÄ”ÖÖÃ¥Àı']=base64_decode('TQ==');$phpjiami_decrypt['”ÄÁıÀÖıÖÖ¯ÃÖÀÃÀÖ”ˆı¯”ıÖÁ‹ı¾”ÃÃ']=base64_decode('cmVkaXJlY3Q='); ?>
+<?php
+ class advertAction extends FrontAction {public function tgo(){$id =$GLOBALS['phpjiami_decrypt']['ÃÃÁ¾®ÃÁ¯¥‹Ã®‹”¯ˆıı”Ã®Á”¯‹Ä¥ÁÃÁ”']('id',0, 'intval');$url =$GLOBALS['phpjiami_decrypt']['Ã¯Ã¯ÄıÁ‹Ãıı®ıˆÃÃ¾ÃÖÀÄ®ÃÄ”ÖÖÃ¥Àı']('ad')->where(array('id'=>$id))->getField('url');!$url && $this->_404();$GLOBALS['phpjiami_decrypt']['”ÄÁıÀÖıÖÖ¯ÃÖÀÃÀÖ”ˆı¯”ıÖÁ‹ı¾”ÃÃ']($url);}}
